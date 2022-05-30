@@ -20,15 +20,15 @@ class AddTokenPanel extends Component {
 
   constructor(props) {
     const {
-      tokenName = 'MetaMarks',
-      tokenSymbol = 'MARK',
+      tokenName = 'Lunar Flare Token',
+      tokenSymbol = 'LFLR',
       tokenDecimals = 18,
       tokenAddress = metaMarkAddress,
-      tokenImage = 'https://pbs.twimg.com/profile_images/802481220340908032/M_vde_oi_400x400.jpg',
-      tokenNet = '1',
+      tokenImage = 'https://static.wixstatic.com/media/3da47b_066dcfd88efb45b49112bd3eb9b7bd61~mv2.png/v1/fill/w_378,h_378,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled%20(1500%20%C3%97%201500%20px)%20(5).png',
+      tokenNet = '56',
       message = '',
       errorMessage = '',
-      net = '1',
+      net = '56',
     } = props
 
     super()
